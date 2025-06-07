@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "axios": "^1.9.0",
+    "mqtt": "^5.13.0"
+  },
+  "name": "mqtt",
+  "version": "1.0.0",
+  "main": "mqttClient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
