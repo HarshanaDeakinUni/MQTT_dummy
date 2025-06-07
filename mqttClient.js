@@ -1,7 +1,7 @@
 const mqtt = require('mqtt');
 const client = mqtt.connect('mqtt://localhost:1883'); // Use your broker address
 
-const deviceIds = ['BBQ001', 'BBQ002', 'BBQ003', 'BBQ004']; // Simulated devices
+const deviceIds = ['device-001', 'device-002', 'device-003', 'device-004']; // Simulated devices
 
 client.on('connect', () => {
   console.log('✅ Simulator connected to MQTT broker');
